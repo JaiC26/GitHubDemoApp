@@ -30,6 +30,8 @@ void printPrime(int n)
 
 int main()
 {
-    int n = 50;
+    int n;
+    cout<<"Enter n";
+    cin>>n;
     printPrime(n);
 }
